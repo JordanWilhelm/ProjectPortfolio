@@ -3,3 +3,6 @@ All of my projects in a portfolio!
 
 
 ![Diagram Test](/CircuitDiagram.jpg)
+
+![BlockDiagram](/BlockDiagram.png)
+
