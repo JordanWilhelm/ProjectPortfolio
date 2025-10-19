@@ -132,12 +132,5 @@ while True:
             print("Lights turned off after 3 seconds")
 
     time.sleep(0.05)
-
-
-
-
-
-
-
 }
 ```
