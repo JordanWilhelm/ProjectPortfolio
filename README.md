@@ -1,6 +1,5 @@
 # ProjectPortfolio
-All of my projects in a portfolio!
-
+<h1>DSGN 297-0 Smart Electronics in Design Final Project</h1>
 
 <h2> BLOCK DIAGRAM </h2>
 <img src="BlockDiagram.png" alt="blockDiagram" width="600"/>
@@ -8,7 +7,7 @@ All of my projects in a portfolio!
 <h2> CIRCUIT DIAGRAM </h2>
 <img src="CircuitDiagram.jpg" alt="blockDiagram" width="600"/>
 
-
+<h2> FULL CODE </h2>
 ```
 {
 import time
