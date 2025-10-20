@@ -4,10 +4,10 @@
 <h3> BLOCK DIAGRAM </h3>
 <img src="BlockDiagram.png" alt="blockDiagram" width="600"/>
 
-<h2> CIRCUIT DIAGRAM </h2>
+<h3> CIRCUIT DIAGRAM </h3>
 <img src="CircuitDiagram.jpg" alt="blockDiagram" width="600"/>
 
-<h2> PYTHON CODE </h2>
+<h3> PYTHON CODE </h3>
 ```
 {
 import time
