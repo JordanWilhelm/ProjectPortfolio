@@ -7,7 +7,7 @@
 <h2> CIRCUIT DIAGRAM </h2>
 <img src="CircuitDiagram.jpg" alt="blockDiagram" width="600"/>
 
-<h2> FULL CODE </h2>
+<h2> PYTHON CODE </h2>
 ```
 {
 import time
