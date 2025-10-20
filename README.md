@@ -1,7 +1,7 @@
 # ProjectPortfolio
 <h1>DSGN 297-0 Smart Electronics in Design Final Project</h1>
 
-<h2> BLOCK DIAGRAM </h2>
+<h3> BLOCK DIAGRAM </h3>
 <img src="BlockDiagram.png" alt="blockDiagram" width="600"/>
 
 <h2> CIRCUIT DIAGRAM </h2>
