@@ -7,7 +7,10 @@
 <h3> CIRCUIT DIAGRAM </h3>
 <img src="CircuitDiagram.jpg" alt="blockDiagram" width="600"/>
 
-<img src="NoFaceProject.MOV" alt="blockDiagram" width="600"/>
+
+<video width="320" height="240" controls>
+  <source src="NoFaceProject.MOV" type="video/mp4">
+</video>
 
 <h3> PYTHON CODE </h3>
 ```
