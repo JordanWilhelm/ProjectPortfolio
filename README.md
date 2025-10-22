@@ -1,6 +1,8 @@
 # ProjectPortfolio
 <h1>DSGN 297-0 Smart Electronics in Design Final Project</h1>
 
+<h3>This project is based on a character called No Face from the Studio Ghibli film Spirited Away. I designed it so that when you put your hand in front of the laser finder, the character opens its mouth, a sound plays and purple LEDs light up inside of the mouth. </h3>
+
 <h3> BLOCK DIAGRAM </h3>
 <img src="BlockDiagram.png" alt="blockDiagram" width="600"/>
 
