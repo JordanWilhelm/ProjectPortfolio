@@ -1,20 +1,59 @@
-# ProjectPortfolio
-<h1>DSGN 297-0 Smart Electronics in Design Final Project</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DSGN 297-0 Final Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    video {
+      display: block;
+      margin: 20px 0;
+      border: 1px solid #ccc;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+      border: 1px solid #ddd;
+    }
+    code {
+      font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    }
+  </style>
+</head>
+<body>
 
-<h3> BLOCK DIAGRAM </h3>
-<img src="BlockDiagram.png" alt="blockDiagram" width="600"/>
+  <h1>DSGN 297-0 Smart Electronics in Design Final Project</h1>
 
-<h3> CIRCUIT DIAGRAM </h3>
-<img src="CircuitDiagram.jpg" alt="blockDiagram" width="600"/>
+  <h2>Block Diagram</h2>
+  <img src="BlockDiagram.png" alt="Block Diagram">
 
+  <h2>Circuit Diagram</h2>
+  <img src="CircuitDiagram.jpg" alt="Circuit Diagram">
 
-<video width="320" height="240" controls>
-  <source src="NoFaceProject.MOV" type="video/mp4">
-</video>
+  <h2>Project Demo</h2>
+  <video width="640" height="360" controls>
+    <source src="NoFaceProject.MOV" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-<h3> PYTHON CODE </h3>
-```
-{
+  <h2>Python Code</h2>
+  <pre><code>
 import time
 import board
 import pwmio
@@ -85,12 +124,10 @@ while True:
 
         else:
             object_detected = False
-            # Do not stop audio here — let it finish naturally
 
     except Exception as e:
         print(f"Sensor error: {e}")
         object_detected = False
-        # Do not stop audio here either
 
     # Stop sound after 4 seconds
     if sound_triggered and now - sound_start_time >= SOUND_DURATION:
@@ -136,5 +173,7 @@ while True:
             print("Lights turned off after 3 seconds")
 
     time.sleep(0.05)
-}
-```
+  </code></pre>
+
+</body>
+</html>
